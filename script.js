@@ -1,6 +1,6 @@
 // ⚠️ STEP 1: Paste your Google Apps Script Web App URL here after deploying it.
 // It looks like: https://script.google.com/macros/s/XXXXXXXXXXXXXXXX/exec
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwqGvdylTIrfmF9iOxFoi6mvVwxu4uNO4UmM0vdoGn0xkd1n0mNS8jM_dz40g6UvzSV/exec";
+const SCRIPT_URL = "SHEET_URL";
 
 const form = document.getElementById("userForm");
 const statusMsg = document.getElementById("statusMsg");

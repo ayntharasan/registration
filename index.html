@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>Registration Form</h1>
+    <p class="subtitle">Fill in your details below</p>
+
+    <form id="userForm">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="field">
+        <label for="department">Department</label>
+        <input type="text" id="department" name="department" placeholder="Enter your department" required>
+      </div>
+
+      <div class="field">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender" required>
+          <option value="" disabled selected>Select gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="Enter your city" required>
+      </div>
+
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+
+    <p id="statusMsg"></p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
